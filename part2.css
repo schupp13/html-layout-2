@@ -1,0 +1,76 @@
+.part2{
+  border: 2px solid darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%
+
+}
+.days ul{
+  height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+font-size: 11px;
+}
+
+.days ul li{
+  padding: 6px;
+}
+
+.gridContainer{
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.months{
+  
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.months ul{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+
+}
+.months ul li{
+  flex: auto;
+
+}
+
+
+
+
+.cell{
+  height: 7px;
+  width: 7px;
+  border: 1px solid darkgrey; 
+  padding: 3px;
+
+}
+
+.grey{
+  background-color: rgb(235, 237, 240);
+}
+
+.green1{
+  background-color: #196127;
+}
+.green2{
+  background-color: #7bc96f;
+}
+.green3{
+  background-color: #239a3b;;
+}
+.green4{
+  background-color: #196127;
+}
+
+
+

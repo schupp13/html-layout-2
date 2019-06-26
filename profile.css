@@ -1,0 +1,47 @@
+.mainSection{
+  display:flex;
+  justify-content: center;
+  margin: 25px;
+
+}
+
+.profile{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 15vw;
+}
+
+.profilePicture{
+  max-width: 300px;
+}
+
+.myName{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.myUser{
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 100;
+  color: darkgray;
+}
+.profile button{
+  padding: 10px;
+  align-self: stretch;
+}
+
+.pictureArea{
+  display: flex;
+  flex-direction: column;
+  border: solid #606366 1px;
+}
+
+.status{
+  padding: 5px;
+}
+
