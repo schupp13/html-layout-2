@@ -28,7 +28,7 @@ header{
   font-size: 13px;
 }
 
-.leftNav ul a, a:visited{
+.leftNav > ul a{
   color: white;
   text-decoration: none;
   padding: 18px;

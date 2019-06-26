@@ -110,8 +110,11 @@ footer{
   padding-left: 10%;
 }
 
-footer ul a{
-padding: 5px;
-color:darkgray;
+
+
+.footerLinks{
+  padding: 5px;
+
 text-decoration: none;
+  color: lightgrey;
 }
