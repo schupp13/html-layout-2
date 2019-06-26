@@ -4,6 +4,9 @@
 }
 /* Overview Nav */
 .overviewNav{
+  position: sticky;
+  top:0;
+  background-color: white;
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
@@ -53,7 +56,7 @@ color:blue;
   flex-wrap: wrap;
   margin-top: 20px;
   min-width: 50vw;
-  max-width: 5vw;
+  max-width: 50vw;
   
   
 }
@@ -132,4 +135,3 @@ color:blue;
   font-weight: bold;
   color: lightblue;
 }
-
